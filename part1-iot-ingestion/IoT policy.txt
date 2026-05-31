@@ -1,0 +1,23 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iot:Connect",
+        "iot:Publish"
+      ],
+      "Resource": [
+        "arn:aws:iot:us-east-2:143176219551:client/*",
+        "arn:aws:iot:us-east-2:143176219551:topic/iot-o2-arena-motion"
+      ]
+    }
+  ]
+}
+
+
+-----Library to download AWS IoT SDK for Python
+
+pip install AWSIoTPythonSDK
+
+python -m pip install awsiotsdk 
